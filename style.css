@@ -1,0 +1,73 @@
+@media (max-width: 500px) {
+    #menutext {
+        display: none !important;
+    }
+}
+
+.slicknav_menu {
+	prependTo: nav;
+}
+
+#menu {
+    display:none;
+}
+
+
+body {
+    padding: 0;
+    margin: auto;
+    background-color: #eff0ef;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    display: table;
+    margin: auto;
+    background-color: #FFFFFF;
+    border-top: 3px solid #00769D;
+    border-bottom: 3px solid #00769D;
+    width: 100%;
+}
+h1 {font-size: 2.25em;
+    display: table-cell;
+    width: 100%;
+    text-align: left;
+    color: #00769D;
+}
+#menutext {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+}
+
+nav {
+    position: relative;
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: .25em;
+    padding: 0;
+    color: #00769D;
+}
+
+p {
+    width: 95%;
+    margin: 0 1.5em 1em 1.5em;
+}
+
+section {
+        max-width: 900px;
+        margin: auto;
+}
+
+.gallery {
+    display:table;
+    text-align: center;
+}
+.gallery a {
+padding: .3em;
+}
